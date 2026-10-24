@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "nebula",
+  "version": "${version}",
+  "name": "Nebula",
+  "description": "Client utility mod: Tracers, ESP, Nametags, Fullbright, Hitbox Expander, Freecam, TriggerBot.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.nebula.NebulaClient"]
+  },
+  "mixins": [
+    { "config": "nebula.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

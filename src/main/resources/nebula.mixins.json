@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "pl.nebula.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "EntityMixin",
+    "EntityRendererMixin",
+    "KeyboardInputMixin",
+    "SimpleOptionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
